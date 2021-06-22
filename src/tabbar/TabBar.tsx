@@ -18,7 +18,7 @@ import * as Haptic from "expo-haptics";
 import { Platform } from "@unimodules/core";
 import { MARKDOWN_ARTICLE_SCREEN } from "../screens";
 
-export const TAB_BAR_HEIGHT = 76;
+export const TAB_BAR_HEIGHT = 80;
 
 export default class extends React.Component<ScreenProps> {
   private keyboardDidShowListener;
